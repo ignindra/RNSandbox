@@ -7,6 +7,9 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
+import java.util.Map;
+import java.util.HashMap;
+
 public class RNSandboxTestModule extends ReactContextBaseJavaModule {
 
   private static final String DURATION_SHORT_KEY = "SHORT";
@@ -18,7 +21,7 @@ public class RNSandboxTestModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return 'PackageTest';
+    return "PackageTest";
   }
 
   @Override
