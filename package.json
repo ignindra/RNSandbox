@@ -1,0 +1,19 @@
+{
+  "name": "rn-testing-package",
+  "version": "1.0.0",
+  "description": "react native custom package for testing purposes only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignindra/RNSandbox.git"
+  },
+  "author": "Indra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignindra/RNSandbox/issues"
+  },
+  "homepage": "https://github.com/ignindra/RNSandbox#readme"
+}
